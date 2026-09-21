@@ -178,7 +178,7 @@ ul {
 /* --- Main Content --- */
 .main-content {
     flex-grow: 1;
-    min-width: 0; /* Prevents flexbox from breaking */
+    min-width: 0; 
 }
 
 .content-header {
