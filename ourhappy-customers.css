@@ -1,0 +1,84 @@
+.main{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.slider{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slider h1{
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+}
+.slide-btn{
+    display: flex;
+    gap: 15px;
+}
+
+.Review{
+    border: 2px solid rgb(234, 228, 228);
+    width: 380px;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.Star{
+    color: gold;
+    
+}
+
+.Review h3 i{
+    color: green;
+    
+}
+
+.Review p{
+    color: gray;
+}
+.Review p{
+
+
+}
+
+@media (max-width: 600px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .main{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .slider h1{
+        font-family: "Archivo Black", sans-serif;
+        font-weight: 200;
+        
+    }
+
+    .slide-btn{
+        display: flex;
+        gap: 5px;
+    }
+
+    .Review{
+        border: 2px solid rgb(234, 228, 228);
+        width: 420px;
+        padding: 30px;
+        border-radius: 30px;
+    }
+    
+}
+
+
