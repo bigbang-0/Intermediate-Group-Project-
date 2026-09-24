@@ -1,158 +1,136 @@
- <!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rating & Reviews</title>
-    <link rel="stylesheet" href="rating-style.css">
-</head>
-<body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Rating & Reviews</title>
+		<link rel="stylesheet" href="rating-style.css" />
+	</head>
+	<body>
+		<section class="reviews-section">
+			<div class="tabs">
+				<button>Product Details</button>
+				<button class="active">Rating & Reviews</button>
+				<button>FAQs</button>
+			</div>
 
-    <section class="reviews-section">
+			<div class="reviews-header">
+				<h2>All Reviews <span>(451)</span></h2>
 
-        <div class="tabs">
-            <button>Product Details</button>
-            <button class="active">Rating & Reviews</button>
-            <button>FAQs</button>
-        </div>
+				<div class="review-actions">
+					<button class="filter-btn">⚙</button>
 
-        <div class="reviews-header">
-            <h2>All Reviews <span>(451)</span></h2>
+					<button class="latest-btn">Latest <span>⌄</span></button>
 
-            <div class="review-actions">
-                <button class="filter-btn">⚙</button>
+					<button class="write-btn">Write a Review</button>
+				</div>
+			</div>
 
-                <button class="latest-btn">
-                    Latest <span>⌄</span>
-                </button>
+			<div class="reviews-grid">
+				<article class="review-card">
+					<div class="review-top">
+						<div class="stars">★★★★★</div>
+						<button class="more-btn">•••</button>
+					</div>
 
-                <button class="write-btn">Write a Review</button>
-            </div>
-        </div>
+					<h3>Samantha D. <span class="verified">✓</span></h3>
 
-        <div class="reviews-grid">
+					<p>
+						"I absolutely love this t-shirt! The design is unique and the fabric feels so comfortable. As a
+						fellow designer, I appreciate the attention to detail. It's become my favorite go-to shirt."
+					</p>
 
-            <article class="review-card">
-                <div class="review-top">
-                    <div class="stars">★★★★★</div>
-                    <button class="more-btn">•••</button>
-                </div>
+					<small>Posted on August 14, 2023</small>
+				</article>
 
-                <h3>Samantha D. <span class="verified">✓</span></h3>
+				<article class="review-card">
+					<div class="review-top">
+						<div class="stars">★★★★★</div>
+						<button class="more-btn">•••</button>
+					</div>
 
-                <p>
-                    "I absolutely love this t-shirt! The design is unique and
-                    the fabric feels so comfortable. As a fellow designer, I
-                    appreciate the attention to detail. It's become my favorite
-                    go-to shirt."
-                </p>
+					<h3>Alex M. <span class="verified">✓</span></h3>
 
-                <small>Posted on August 14, 2023</small>
-            </article>
+					<p>
+						"The t-shirt exceeded my expectations! The colors are vibrant and the print quality is
+						top-notch. Being a UI/UX designer myself, I'm quite picky about aesthetics, and this t-shirt
+						definitely gets a thumbs up from me."
+					</p>
 
+					<small>Posted on August 15, 2023</small>
+				</article>
 
-            <article class="review-card">
-                <div class="review-top">
-                    <div class="stars">★★★★★</div>
-                    <button class="more-btn">•••</button>
-                </div>
+				<article class="review-card">
+					<div class="review-top">
+						<div class="stars">★★★★☆</div>
+						<button class="more-btn">•••</button>
+					</div>
 
-                <h3>Alex M. <span class="verified">✓</span></h3>
+					<h3>Ethan R. <span class="verified">✓</span></h3>
 
-                <p>
-                    "The t-shirt exceeded my expectations! The colors are
-                    vibrant and the print quality is top-notch. Being a UI/UX
-                    designer myself, I'm quite picky about aesthetics, and
-                    this t-shirt definitely gets a thumbs up from me."
-                </p>
+					<p>
+						"This t-shirt is a must-have for anyone who appreciates good design. The minimalistic yet
+						stylish pattern caught my eye, and the fit is perfect. I can see the designer's touch in every
+						aspect of this shirt."
+					</p>
 
-                <small>Posted on August 15, 2023</small>
-            </article>
+					<small>Posted on August 16, 2023</small>
+				</article>
 
+				<article class="review-card">
+					<div class="review-top">
+						<div class="stars">★★★★★</div>
+						<button class="more-btn">•••</button>
+					</div>
 
-            <article class="review-card">
-                <div class="review-top">
-                    <div class="stars">★★★★☆</div>
-                    <button class="more-btn">•••</button>
-                </div>
+					<h3>Olivia P. <span class="verified">✓</span></h3>
 
-                <h3>Ethan R. <span class="verified">✓</span></h3>
+					<p>
+						"As a UI/UX enthusiast, I value simplicity and functionality. This t-shirt not only represents
+						those principles but also feels great to wear. It's evident that the designer poured their
+						creativity into making this t-shirt stand out."
+					</p>
 
-                <p>
-                    "This t-shirt is a must-have for anyone who appreciates
-                    good design. The minimalistic yet stylish pattern caught
-                    my eye, and the fit is perfect. I can see the designer's
-                    touch in every aspect of this shirt."
-                </p>
+					<small>Posted on August 17, 2023</small>
+				</article>
 
-                <small>Posted on August 16, 2023</small>
-            </article>
+				<article class="review-card">
+					<div class="review-top">
+						<div class="stars">★★★★☆</div>
+						<button class="more-btn">•••</button>
+					</div>
 
+					<h3>Liam K. <span class="verified">✓</span></h3>
 
-            <article class="review-card">
-                <div class="review-top">
-                    <div class="stars">★★★★★</div>
-                    <button class="more-btn">•••</button>
-                </div>
+					<p>
+						"This t-shirt is a fusion of comfort and creativity. The fabric is soft, and the design speaks
+						volumes about the designer's skill. It's like wearing a piece of art that reflects my passion
+						for both design and fashion."
+					</p>
 
-                <h3>Olivia P. <span class="verified">✓</span></h3>
+					<small>Posted on August 18, 2023</small>
+				</article>
 
-                <p>
-                    "As a UI/UX enthusiast, I value simplicity and
-                    functionality. This t-shirt not only represents those
-                    principles but also feels great to wear. It's evident
-                    that the designer poured their creativity into making
-                    this t-shirt stand out."
-                </p>
+				<article class="review-card">
+					<div class="review-top">
+						<div class="stars">★★★★☆</div>
+						<button class="more-btn">•••</button>
+					</div>
 
-                <small>Posted on August 17, 2023</small>
-            </article>
+					<h3>Ava H. <span class="verified">✓</span></h3>
 
+					<p>
+						"I'm not just wearing a t-shirt; I'm wearing a piece of design philosophy. The intricate details
+						and thoughtful layout of the design make this shirt a conversation starter."
+					</p>
 
-            <article class="review-card">
-                <div class="review-top">
-                    <div class="stars">★★★★☆</div>
-                    <button class="more-btn">•••</button>
-                </div>
+					<small>Posted on August 19, 2023</small>
+				</article>
+			</div>
 
-                <h3>Liam K. <span class="verified">✓</span></h3>
-
-                <p>
-                    "This t-shirt is a fusion of comfort and creativity.
-                    The fabric is soft, and the design speaks volumes about
-                    the designer's skill. It's like wearing a piece of art
-                    that reflects my passion for both design and fashion."
-                </p>
-
-                <small>Posted on August 18, 2023</small>
-            </article>
-
-
-            <article class="review-card">
-                <div class="review-top">
-                    <div class="stars">★★★★☆</div>
-                    <button class="more-btn">•••</button>
-                </div>
-
-                <h3>Ava H. <span class="verified">✓</span></h3>
-
-                <p>
-                    "I'm not just wearing a t-shirt; I'm wearing a piece of
-                    design philosophy. The intricate details and thoughtful
-                    layout of the design make this shirt a conversation starter."
-                </p>
-
-                <small>Posted on August 19, 2023</small>
-            </article>
-
-        </div>
-
-        <div class="load-more">
-            <button>Load More Reviews</button>
-        </div>
-
-
-    </section>
-
-</body>
+			<div class="load-more">
+				<button>Load More Reviews</button>
+			</div>
+		</section>
+	</body>
 </html>
