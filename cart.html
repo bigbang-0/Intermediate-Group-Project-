@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Cart</title>
+
+		<link rel="stylesheet" href="hero-style.css" />
+		<link rel="stylesheet" href="footer-style.css" />
+		<link rel="stylesheet" href="products.css" />
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<section>
+			<!-- Top Announcement Bar -->
+			<div class="top-banner">
+				<div class="top-banner-text">
+					Sign up and get 20% off to your first order.
+					<a href="#">Sign Up Now</a>
+				</div>
+				<button class="banner-close-btn" aria-label="Close announcement">&times;</button>
+			</div>
+
+			<!-- Navigation Bar -->
+			<nav class="navbar">
+				<a href="#" class="logo">SHOP.CO</a>
+
+				<input type="checkbox" id="menu-toggle" />
+
+				<label for="menu-toggle" class="hamburger" aria-label="Toggle navigation">
+					<span></span>
+					<span></span>
+					<span></span>
+				</label>
+
+				<ul class="nav-links">
+					<li>
+						<a href="#"
+							>Shop
+							<svg
+								width="12"
+								height="6"
+								viewBox="0 0 12 6"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path d="M1 1L6 5L11 1" stroke="black" stroke-width="1.5" stroke-linecap="round" />
+							</svg>
+						</a>
+					</li>
+					<li><a href="#">On Sale</a></li>
+					<li><a href="#">New Arrivals</a></li>
+					<li><a href="#">Brands</a></li>
+				</ul>
+
+				<div class="search-bar">
+					<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+						<circle cx="11" cy="11" r="8"></circle>
+						<line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+					</svg>
+					<input type="text" placeholder="Search for products..." />
+				</div>
+
+				<div class="nav-icons">
+					<!-- Cart Icon -->
+					<button class="icon-btn" aria-label="Cart">
+						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2">
+							<circle cx="9" cy="21" r="1"></circle>
+							<circle cx="20" cy="21" r="1"></circle>
+							<path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+						</svg>
+					</button>
+					<!-- User Profile Icon -->
+					<button class="icon-btn" aria-label="Profile">
+						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2">
+							<path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+							<circle cx="12" cy="7" r="4"></circle>
+						</svg>
+					</button>
+				</div>
+			</nav>
+		</section>
+
+		<section class="main">
+			<h1>YOUR CART</h1>
+			<section class="cart-layout">
+				<div class="cart-items">
+					<div class="cart-item">
+						<div class="product-image">
+							<img src="t-shirt.png" alt="Gradient Graphic T-shirt" />
+						</div>
+						<div class="product-details">
+							<h3>Gradient Graphic T-shirt</h3>
+							<p>Size:<span> Large </span></p>
+							<p>Color: <span> White </span></p>
+							<strong> $145 </strong>
+						</div>
+						<button class="delete"><i class="fa-regular fa-trash-can"></i></button>
+						<div class="quantity">
+							<button>−</button>
+							<span> 1 </span>
+							<button>+</button>
+						</div>
+					</div>
+					<div class="cart-item">
+						<div class="product-image">
+							<img src="checkered shirt.png" alt="Checkered Shirt" />
+						</div>
+						<div class="product-details">
+							<h3>Checkered Shirt</h3>
+							<p>Size: <span> Medium </span></p>
+							<p>Color:<span> Red </span></p>
+							<strong> $180 </strong>
+						</div>
+						<button class="delete"><i class="fa-regular fa-trash-can"></i></button>
+						<div class="quantity">
+							<button>−</button>
+							<span> 1 </span>
+							<button>+</button>
+						</div>
+					</div>
+					<div class="cart-item">
+						<div class="product-image">
+							<img src="skinny fit jeans.png" alt="Skinny Fit Jeans" />
+						</div>
+						<div class="product-details">
+							<h3>Skinny Fit Jeans</h3>
+							<p>Size: <span> Large</span></p>
+							<p>Color: <span> Blue </span></p>
+							<strong> $240 </strong>
+						</div>
+						<button class="delete">
+							<i class="fa-regular fa-trash-can"></i>
+						</button>
+						<div class="quantity">
+							<button>−</button>
+							<span> 1 </span>
+							<button>+</button>
+						</div>
+					</div>
+				</div>
+				<aside class="order-summary">
+					<h2>Order Summary</h2>
+					<div class="summary-row">
+						<span> Subtotal </span>
+						<strong> $565 </strong>
+					</div>
+					<div class="summary-row discount">
+						<span> Discount (-20%) </span>
+						<strong> -$113 </strong>
+					</div>
+					<div class="summary-row">
+						<span> Delivery Fee </span>
+						<strong> $15 </strong>
+					</div>
+					<hr />
+					<div class="total">
+						<span> Total </span>
+						<strong> $467 </strong>
+					</div>
+					<div class="promo">
+						<div>
+							<span> 🏷 </span>
+							<input type="text" placeholder="Add promo code" />
+						</div>
+						<button>Apply</button>
+					</div>
+					<button class="checkout">
+						Go to Checkout
+						<span> →</span>
+					</button>
+				</aside>
+			</section>
+		</section>
+
+		<footer>
+			<section class="newsletter">
+				<h2>STAY UPTO DATE ABOUT<br />OUR LATEST OFFERS</h2>
+
+				<div class="subscribe">
+					<div class="email-box">
+						<span>✉</span>
+						<input type="email" placeholder="Enter your email address" />
+					</div>
+
+					<button>Subscribe to Newsletter</button>
+				</div>
+			</section>
+
+			<section class="footer-content">
+				<div class="brand">
+					<h1>SHOP.CO</h1>
+
+					<p>We have clothes that suits your style and which you're proud to wear. From women to men.</p>
+
+					<div class="social-icons">
+						<span>𝕏</span>
+						<span>f</span>
+						<span>◎</span>
+						<span>◉</span>
+					</div>
+				</div>
+
+				<div class="footer-column">
+					<h3>COMPANY</h3>
+					<a href="#">About</a>
+					<a href="#">Features</a>
+					<a href="#">Works</a>
+					<a href="#">Career</a>
+				</div>
+
+				<div class="footer-column">
+					<h3>HELP</h3>
+					<a href="#">Customer Support</a>
+					<a href="#">Delivery Details</a>
+					<a href="#">Terms & Conditions</a>
+					<a href="#">Privacy Policy</a>
+				</div>
+
+				<div class="footer-column">
+					<h3>FAQ</h3>
+					<a href="#">Account</a>
+					<a href="#">Manage Deliveries</a>
+					<a href="#">Orders</a>
+					<a href="#">Payments</a>
+				</div>
+
+				<div class="footer-column">
+					<h3>RESOURCES</h3>
+					<a href="#">Free eBooks</a>
+					<a href="#">Development Tutorial</a>
+					<a href="#">How to - Blog</a>
+					<a href="#">Youtube Playlist</a>
+				</div>
+			</section>
+
+			<div class="footer-bottom">
+				<p>Shop.co © 2000-2023, All Rights Reserved</p>
+
+				<div class="payment-methods">
+					<span class="visa">VISA</span>
+					<span class="mastercard">●●</span>
+					<span class="paypal">PayPal</span>
+					<span class="apple">Pay</span>
+					<span class="google">G Pay</span>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
