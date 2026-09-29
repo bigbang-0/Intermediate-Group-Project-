@@ -18,12 +18,12 @@ body {
 
 .tabs {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	border-bottom: 1px solid #ddd;
 }
 
 .tabs button {
-	width: 33.33%;
+	width: 100%;
 	padding: 15px;
 	border: none;
 	background: white;
@@ -191,6 +191,20 @@ body {
 }
 
 @media (max-width: 480px) {
+	.tabs {
+		display: flex;
+		/* justify-content: space-evenly; */
+		border-bottom: 1px solid #ddd;
+	}
+
+	.tabs button {
+		width: 100%;
+		padding: 15px;
+		border: none;
+		background: white;
+		color: #777;
+		cursor: pointer;
+	}
 	.reviews-header {
 		flex-direction: column;
 	}
