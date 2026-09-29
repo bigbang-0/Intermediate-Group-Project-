@@ -200,6 +200,9 @@ h1 {
 }
 
 @media (max-width: 768px) {
+	.main {
+		padding: 10px 30px;
+	}
 	.cart-layout {
 		display: block;
 	}
@@ -269,5 +272,11 @@ h1 {
 	}
 	.promo button {
 		width: 75px;
+	}
+}
+
+@media (max-width: 768px) {
+	.main {
+		padding: 5px 15px;
 	}
 }

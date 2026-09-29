@@ -334,12 +334,20 @@ hr {
 	}
 	.product-grid {
 		grid-template-columns: repeat(2, 1fr);
+		gap: 10px;
+		padding: 10px;
+	}
+
+	.recommendations h2 {
+		font-size: 30px;
+		margin-bottom: 10px;
 	}
 }
 @media (max-width: 550px) {
 	.header {
 		height: 70px;
 	}
+
 	.logo {
 		font-size: 22px;
 	}
@@ -370,5 +378,10 @@ hr {
 		flex-direction: column;
 		align-items: flex-start;
 		gap: 15px;
+	}
+
+	.recommendations h2 {
+		font-size: 20px;
+		margin-bottom: 10px;
 	}
 }

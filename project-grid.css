@@ -167,8 +167,8 @@ nav a {
 	}
 
 	.products-section {
-		padding: 0 15px;
-		margin: 35px auto;
+		padding: 0 25px;
+		/* margin-top: 120px; */
 	}
 
 	.products-section h1 {
@@ -182,5 +182,16 @@ nav a {
 
 	.product-image {
 		height: 180px;
+	}
+}
+
+@media (max-width: 500px) {
+	.products-section {
+		padding: 0 25px;
+		/* margin-top: 250px; */
+	}
+
+	.products-section h1 {
+		font-size: 25px;
 	}
 }
