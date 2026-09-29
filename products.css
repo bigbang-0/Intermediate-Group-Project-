@@ -64,6 +64,9 @@ h1 {
 	object-fit: cover;
 	display: block;
 }
+.cart-item:hover .product-image img {
+	transform: scale(1.09);
+}
 .product-details {
 	align-self: center;
 }

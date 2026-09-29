@@ -42,7 +42,9 @@ body {
 	width: 100%;
 	height: 100%;
 	object-fit: contain;
+	transition: transform 0.3s ease;
 }
+
 .sale {
 	position: absolute;
 	top: 20px;
